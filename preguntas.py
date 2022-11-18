@@ -59,7 +59,7 @@ def pregunta_01():
     import pandas as pd 
     import numpy as np
     
-    df = pd.read_csv(r'E:\TEMP_ MASTER\regresion-logistica-mushrooms-alosanchezvi-main\mushrooms.csv')
+    df = pd.read_csv('mushrooms.csv')
 
     # Remueva la columna `veil-type` del DataFrame `df`.
     # Esta columna tiene un valor constante y no sirve para la detección de hongos.
